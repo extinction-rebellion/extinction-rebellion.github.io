@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "FucXed";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/fucxedcaps-v3-webfont.woff2") format("woff2"), url("fonts/fucxedcaps-v3-webfont.woff") format("woff");
+    font-display: swap;
+}
+
+body {
+    background: #21a73d;
+}
+
+.content {
+    margin: 5% auto;
+    max-width: 60rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Crimson Text', Georgia, serif;
+    font-size: 1.2rem;
+}
+
+h1 {
+    margin: 0 0 1rem 0;
+    font-family: 'FucXed', sans-serif;
+}
+
+.logo {
+    width: 20rem;
+    height: 7rem;
+    background: url('images/XR-logo.svg') no-repeat center;
+    background-size: contain;
+    margin: 0 auto 3rem auto;
+}
+
+nav {
+    margin-top: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 0.5rem;
+}
+.icon {
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+.twitter {
+    background-image: url('images/twitter.svg');
+}
+.insta {
+    background-image: url('images/instagram.svg');
+}
+.youtube {
+    background-image: url('images/youtube.svg');
+}
+.facebook {
+    background-image: url('images/facebook.svg');
+}
