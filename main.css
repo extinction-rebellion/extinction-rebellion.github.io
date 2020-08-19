@@ -22,18 +22,19 @@ body {
 h1 {
     margin: 0 0 1rem 0;
     font-family: 'FucXed', sans-serif;
+    font-size: 1.8rem;
 }
 
 .logo {
-    width: 20rem;
+    width: 16rem;
     height: 7rem;
     background: url('images/XR-logo.svg') no-repeat center;
     background-size: contain;
-    margin: 0 auto 3rem auto;
+    margin: 0 auto 1.5rem auto;
 }
 
 nav {
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 nav ul {
@@ -41,13 +42,15 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 nav ul li {
     margin: 0 0.5rem;
 }
 .icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
@@ -63,4 +66,22 @@ nav ul li {
 }
 .facebook {
     background-image: url('images/facebook.svg');
+}
+
+@media only screen and (min-width: 650px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .logo {
+        width: 20rem;
+        height: 7rem;
+        margin-bottom: 3rem;
+    }
+    nav {
+        margin-top: 3rem;
+    }
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
 }
